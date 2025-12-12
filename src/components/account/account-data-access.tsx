@@ -1,6 +1,6 @@
 'use client'
 
-import { TOKEN_2022_PROGRAM_ID, TOKEN_PROGRAM_ID } from '@solana/spl-token'
+import { TOKEN_PROGRAM_ID } from '@solana/spl-token'
 import { useConnection, useWallet } from '@solana/wallet-adapter-react'
 import {
   Connection,
@@ -12,6 +12,8 @@ import {
   VersionedTransaction,
 } from '@solana/web3.js'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+
+const TOKEN_2022_PROGRAM_ID = new PublicKey('TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb')
 
 export function useGetBalance({ address }: { address: PublicKey }) {
   const { connection } = useConnection()
