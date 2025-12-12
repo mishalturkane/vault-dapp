@@ -108,7 +108,7 @@ export function VaultDashboard() {
   return (
     <>
       <ToastComponent />
-      <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-2xl shadow-xl overflow-hidden">
+      <div className="bg-gradient-to-r from-purple-500 via-purple-500 to-green-300 rounded-2xl shadow-xl overflow-hidden">
         <div className="p-8 text-white">
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-4">
@@ -485,7 +485,7 @@ export function VaultClose() {
               <Button
                 onClick={() => setConfirmClose(false)}
                 variant="outline"
-                className="flex-1"
+                className="flex-1 text-red-600 hover:text-red-700"
               >
                 Cancel
               </Button>
@@ -496,7 +496,7 @@ export function VaultClose() {
               >
                 {closeVault.isPending || isLoading ? (
                   <>
-                    <Loader2 className="h-5 w-5 animate-spin mr-2" />
+                    <Loader2 className="h-5 w-5 text-md animate-spin mr-2" />
                     Closing...
                   </>
                 ) : (
