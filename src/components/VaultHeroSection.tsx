@@ -65,9 +65,9 @@ const VaultHeroSection = () => {
               </div>
               
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                Master Solana Development with
+               Secure Your Crypto on
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 dark:from-purple-400 dark:to-blue-400">
-                  Vault DApp
+                 Legacy Vault
                 </span>
               </h1>
               
@@ -113,7 +113,7 @@ const VaultHeroSection = () => {
                   rel="noopener noreferrer"
                   className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg hover:opacity-90 transition-opacity flex items-center gap-2"
                 >
-                  <FiExternalLink /> Launch Vault DApp
+                  <FiExternalLink /> Launch Legacy Vault
                 </a>
                 <a 
                   href="#how-it-works" 
@@ -178,7 +178,7 @@ pub mod vault_dapp {
       <section id="how-it-works" className="px-4 py-16 ">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">How Vault DApp Works</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">How Legacy Vault Works</h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               A step-by-step guide to understanding the complete flow of the Solana Vault DApp
             </p>

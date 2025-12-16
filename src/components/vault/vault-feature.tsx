@@ -96,7 +96,7 @@ export default function VaultFeature() {
       </div>
     </div>  
   ) : (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-green-50">
+    <div className="min-h-screen flex items-center justify-center bg-[#0a0a0a] text-center">
       <div className="max-w-md mx-4">
         <div className="bg-white rounded-3xl shadow-2xl p-12 text-center border border-gray-200">
           <div className="w-24 h-24 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mb-8 flex items-center justify-center">
@@ -106,8 +106,8 @@ export default function VaultFeature() {
           <p className="text-gray-600 mb-8">
             Connect your wallet to create and manage your secure on-chain vault
           </p>
-          <div className="transform hover:scale-105 transition-transform duration-300">
-            <WalletButton className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-red-700 font-semibold py-4 px-8 rounded-xl shadow-lg w-full text-lg" />
+          <div className="transform hover:scale-105 bg-black p-2 border rounded-md shadow-lg transition-transform duration-300">
+            <WalletButton className="bg-black hover:from-indigo-700 hover:to-purple-700 text-red-700 font-semibold py-4 px-8 rounded-xl shadow-lg w-full text-lg" />
           </div>
         </div>
       </div>

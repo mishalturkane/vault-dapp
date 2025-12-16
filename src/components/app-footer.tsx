@@ -15,7 +15,7 @@ export function AppFooter() {
       <div className="text-muted-foreground">
 
 
-        © {new Date().getFullYear()} vault. All rights reserved.
+        © {new Date().getFullYear()} Legacy Vault All rights reserved.
 
 
       </div>
@@ -30,7 +30,7 @@ export function AppFooter() {
       <div className="flex items-center space-x-1">
 
 
-        developed by{' '}
+        developed by -{' '}
 
 
         <a 
@@ -51,7 +51,7 @@ export function AppFooter() {
         >
 
 
-          mishaldotrwa
+           mishaldotrwa
 
 
         </a>
